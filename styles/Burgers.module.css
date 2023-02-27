@@ -1,0 +1,59 @@
+
+.burgers{
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+.burgers h1{
+    margin-left: 20px;
+}
+
+.burger{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.orderBtn{
+    padding: 5px 17px;
+    width: 130px;
+    font-size: 20px;
+    margin-left: auto;
+    background-color: var(--default-color);
+    border: 1px solid var(--p-color);
+    color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.orderBtn:hover{
+    background-color: var(--p-color);
+    border: 1px solid var(--default-color);
+}
+
+.burger div{
+     width: 150px;
+     height: 120px;
+     background-size: 150px 120px;
+     cursor: pointer;
+}
+
+.burgerImg1{
+    background-image: url(../public/image/burgers/cheeseburger.png);
+}
+.burgerImg2{
+    background-image: url(../public/image/burgers/chickenburger.png);
+}
+.burgerImg3{
+    background-image: url(../public/image/burgers/breakfastburger.png);
+}
+
+.burgerDescription{
+     margin-left: 30px;
+     min-width: 60%;
+}

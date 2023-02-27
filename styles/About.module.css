@@ -1,0 +1,21 @@
+
+.about{
+    margin-top: 50px;
+    color: var(--about-color);
+}
+
+.aboutBox{
+    margin-top: 50px;
+    
+}
+
+
+.about h3{
+    
+    color: rgb(36, 33, 33);
+}
+
+.about h1{
+    
+    color: rgb(36, 33, 33);
+}
